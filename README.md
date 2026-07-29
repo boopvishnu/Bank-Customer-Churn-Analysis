@@ -11,8 +11,8 @@ Next up in this challenge: Python (Pandas/Matplotlib) and Power BI!
 ---
 
 ### Dashboard Preview
-![Bank Churn Dashboard](Dashboard.png)
 
+<img width="1874" height="746" alt="Image" src="https://github.com/user-attachments/assets/66afe08a-3bb2-4308-a4fd-145fa93bad1d" />
 
 ---
 
@@ -34,7 +34,7 @@ I followed an end-to-end analytics workflow to make sure the insights are accura
 ---
 
 ### Key Business Insights Discovered
-Even though the bank's Overall Churn Rate is 20.4%, digging deeper into the charts revealed some very specific high-risk areas:
+Even though the bank's Overall Churn Rate is 20.4% %, digging deeper into the charts revealed some very specific high-risk areas:
 
 * The Gender Gap: Female customers have a significantly higher churn rate (25.1%) compared to male customers (16.5%).
 * Geographical Risk: German accounts are showing a much higher drop-off rate compared to customers in France and Spain.
@@ -46,7 +46,7 @@ Even though the bank's Overall Churn Rate is 20.4%, digging deeper into the char
 
 ### Files in this Repository
 * Bank_Customer_Churn_Dashboard.xlsx - The full dynamic Excel sheet with Pivot tables, custom slicer styles, and charts.
-* dashboard_screenshot.png - A high-res view of the finalized dashboard layout.
+* Dashboard.png - A high-res view of the finalized dashboard layout.
 
 ---
 
