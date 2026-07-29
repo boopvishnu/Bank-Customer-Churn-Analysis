@@ -11,7 +11,8 @@ Next up in this challenge: Python (Pandas/Matplotlib) and Power BI!
 ---
 
 ### Dashboard Preview
-![Bank Churn Dashboard](C:\Users\eichi\Pictures\Screenshots)
+![Bank Churn Dashboard](Dashboard.png)
+
 
 ---
 
