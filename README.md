@@ -12,7 +12,7 @@ Next up in this challenge: Python (Pandas/Matplotlib) and Power BI!
 
 ### Dashboard Preview
 
-<img width="1874" height="746" alt="Image" src="https://github.com/user-attachments/assets/66afe08a-3bb2-4308-a4fd-145fa93bad1d" />
+<img width="1874" height="742" alt="Image" src="https://github.com/user-attachments/assets/f6670e29-98d3-4dcc-8c35-f1b64440eaf1" />
 
 ---
 
