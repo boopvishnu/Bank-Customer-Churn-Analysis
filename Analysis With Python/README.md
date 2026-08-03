@@ -33,8 +33,8 @@ To keep the analysis clean, the Jupyter Notebook is structured into:
 ---
 
 ###  Files in this Folder
-* `Bank_Customer_Churn_Analysis.ipynb` - Complete Jupyter Notebook with code.
-* `Churn Rate By Tenure.png` - Finalized high-res line chart exported from the script.
+* `Bank Customer Churn Analysis.ipynb` - Complete Jupyter Notebook with code.
+* `Customer Churn Analysis.png` - Finalized high-res line chart exported from the script.
 
 ---
 
