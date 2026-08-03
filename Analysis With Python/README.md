@@ -1,23 +1,42 @@
-# Bank Customer Churn Analysis - Step 2: Python (EDA)
+# Bank Customer Churn Analysis (Python - Step 2)
 
-This folder contains the programmatic analysis phase of the dataset, focusing on data cleaning, handling custom segments, and plotting accurate visual insights using Python libraries.
+Welcome to the Python phase of my data analytics challenge. After building the dashboard in Excel, I did the exact same analysis in Python using Pandas for data handling, and Matplotlib and Seaborn for plotting.
 
-## 🛠️ Tech Stack & Libraries
-- **Pandas:** For data ingestion, cleaning, and structural analysis.
-- **NumPy:** For logical partitioning and arrays.
-- **Matplotlib & Seaborn:** For plotting structured distribution and trend lines.
+---
 
-## 📋 Data Operations Performed
-- **Zero-Balance Filtering:** Isolated 3,617 customers with an exact 0 balance to analyze inactive account distributions without skewing the core bell curve.
-- **Age Binning:** Structured the continuous age data into categorical buckets (`18-30`, `31-45`, `46-60`, `60+`) using `pd.cut()`.
-- **Handling Float Precision:** Formatted data labels inside plotting loops to prevent long floating-point decimals and clean up layout visibility.
-
-## 📊 Core Visualization Showcase
-Below is the clean trend line generated during the analysis, optimized with custom axis limits (`plt.ylim`), tight bounding boxes (`bbox_inches='tight'`), and high resolution (300 DPI):
-
+### 📊 Visualization Preview
 ![Churn Rate By Tenure](Churn%20Rate%20By%20Tenure.png)
 
-## 💡 Top Data Insights
-1. **Complaints:** Customers who filed a complaint showed a massive 99.5% correlation with churn.
-2. **Geography:** Germany displayed a highly elevated churn rate (32.4%) relative to other European clusters.
-3. **Age Target:** The 51-60 demographic segment holds the highest risk factor with a 56.21% peak churn rate.
+---
+
+### 📁 Code Structure
+To keep the analysis clean, the Jupyter Notebook is structured into:
+* **Dependencies:** Loading Pandas, NumPy, Matplotlib, and Seaborn.
+* **Data Profiling:** Reading the customer dataset and verifying column types.
+* **Data Processing:** Grouping continuous customer data into custom categories.
+* **Chart Programming:** Writing code to create, label, and save formatted plots.
+
+---
+
+### 🛠️ Data Process & Fixes
+* **Float Precision:** Fixed long 12-13 digit floating decimals by formatting the data labels inside the plotting loops.
+* **Zero Balance Isolation:** Separated 3,617 customers with a 0 balance to plot a clean normal distribution curve for active accounts.
+* **High-Res Export:** Saved charts using `dpi=300` and `bbox_inches='tight'` so text labels remain clear and do not get cut off.
+
+---
+
+### 💡 Key Insights Discovered
+* **Complaints:** Customers who filed a complaint showed a massive 99.5% correlation with leaving the bank.
+* **Geography:** Germany showed a much higher churn rate (32.4%) compared to France and Spain.
+* **Age Demographics:** Churn peaks heavily among customers aged 51 to 60, reaching a 56.21% churn rate.
+
+---
+
+### 📁 Files in this Folder
+* `Bank_Customer_Churn_Analysis.ipynb` - Complete Jupyter Notebook with code.
+* `Churn Rate By Tenure.png` - Finalized high-res line chart exported from the script.
+
+---
+
+### 🔮 What's Next?
+Phase 2 (Python) is complete. I am now moving on to Phase 3, where I will upload the same dataset into a BI tool to build an interactive dashboard next week!
