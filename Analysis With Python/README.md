@@ -5,7 +5,7 @@ Welcome to the Python phase of my data analytics challenge. After building the d
 ---
 
 ###  Visualization Preview
-![Churn Rate By Tenure](Churn%20Rate%20By%20Tenure.png)
+<img width="1664" height="1343" alt="Image" src="https://github.com/user-attachments/assets/138f3e94-657e-4dd7-a53e-048e533ae594" />
 
 ---
 
