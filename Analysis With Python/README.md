@@ -38,9 +38,6 @@ To keep the analysis clean, the Jupyter Notebook is structured into:
 
 ---
 
-### 🔮 What's Next?
-Phase 2 (Python) is complete. I am now moving on to Phase 3, where I will upload
----
-
-### 🔮 What's Next?
+###  What's Next?
 Phase 2 (Python) is complete. I am now moving on to Phase 3, where I will upload the same dataset into a BI tool to build an interactive dashboard next week!
+---
