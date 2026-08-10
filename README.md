@@ -10,8 +10,7 @@ Click on the folders below to see the specific code, dashboard, and insights for
 
 * 📁 [Analysis With Excel](./Analysis%20With%20Excel/) — Contains the initial KPI dashboard and basic customer data exploration.
 * 📁 [Analysis With Python](./Analysis%20With%20Python/) — Contains the Jupyter Notebook for data cleaning, segmenting zero-balances, and high-res distribution plots.
-* 📁 Power BI Dashboard *(Coming Next Week)* — Will contain the interactive report and custom DAX measures.
-
+* 📁 [Analysis With Power BI](./Analysis%20With%20Power%20BI/) — Contains the interactive report, custom grid layout, and the 7 analytical charts.
 ---
 
 ##  Key Business Insights Discovered
